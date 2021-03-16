@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  node:
+    image: node:lts
+    user: "node"
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - "3000:3000"
+    command: bash -c "npm install && npm run start"

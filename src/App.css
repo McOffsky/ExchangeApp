@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(15px + 1vmin);
+  color: white;
+  padding-top: 5vh;
+}
+
+.App ul {
+  list-style: none;
+}
+
+.App .errorWrapper div {
+  display: block;
+  font-size: calc(8px + 1vmin);
+  padding: 1em;
+  padding-bottom: 0;
+  font-style: italic;
+  color: red;
+}
+.App .errorWrapper div span {
+  display: block;
+}
